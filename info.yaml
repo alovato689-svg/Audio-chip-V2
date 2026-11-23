@@ -6,7 +6,7 @@ project:
   description: "3-voice audio synth with SPI control and I2S output"
   language: "Verilog"
   clock_hz: 10000000
-  tiles: "8x2"
+  tiles: "1x1"
   top_module: "tt_um_audio_chip_gen1"
   source_files:
     - "audio_chip_gen1_tt.v"
