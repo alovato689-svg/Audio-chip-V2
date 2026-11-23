@@ -850,7 +850,7 @@ module spi_regbus (
 
     assign miso_d  = out_sh[31];
     assign miso_oe = ~cs_n;
-    assign miso    = miso_oe ? miso_d : 1'bz;     // tri-state when not selected
+    assign miso    = miso_d;     // tri-state when not selected
 endmodule
 
 // ---------------- I2S transmitter (master) ----------------
